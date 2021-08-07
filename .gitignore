@@ -9,3 +9,9 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+
+# 忽略不需要提交的文件
+**/mvnw
+**/mvnw.cmd
+**/.mvn
+**/target/
